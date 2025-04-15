@@ -1,0 +1,37 @@
+footer{
+    position: fixed; /*바닥에 고정*/
+    bottom: 0;
+    width: 100vw; /*화면의 100퍼센트 채운다*/
+    padding-bottom: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #f0f0f0;
+    background-color: white;
+}
+
+.footer-block {
+    display: flex;
+    justify-content: space-evenly; /*화면이 더 넓어진 효과*/
+    align-items: center;
+}
+
+.footer-icons{
+    font-size: 6px; /*폰트사이즈 적용이 안되는 이유? class상속이지만 적용? 그래서 글자 부분에 class정의해야함*/
+    display: flex;
+    flex-direction: column; /*위아래 배치*/
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 0 10px; /*시계 방향*/
+    cursor: pointer; /*클릭 효과*/
+}
+
+.footer-icons__desc {
+    /* font-size:3px; 적용이 안된 이유? -> 화면이 커서?*/
+    margin-top: 5px;
+    font-weight: blod;
+    transform: scale(0.8); /*스케일을 줄일수 있다*/
+}
+
+.footer-icons img{
+    width: 30px;
+
+}

@@ -1,0 +1,60 @@
+.main{
+    padding: 30px 20px 30px 20px;
+}
+
+.item-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px 0 20px 0;
+}
+
+.item-list__img{
+    width:  150px;
+    height: 150px;
+    border: 1px solid rgba(0,0,0,0.1); /* 색 색 색 투명도*/
+    border-radius: 12px; /*원으로 깍음*/
+    margin-right: 20px;
+}
+
+.item-list__img img {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-list__info {
+    padding-top: 20px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.item-list__info div {
+    margin: 40px;
+}
+
+.item-list__info-meta{
+    font-size: smaller;
+    color: rgba(0,0,0,0.5);
+}
+
+.item-list__info-price {
+    font-weight: blod;
+}
+
+.write-btn {
+    background-color: #f66516;
+    color: white;
+    padding: 10px 15px 10px 15px; /*패딩값을 10 15 10 15 박스 크기 위아래 10px 좌우 15px 늘리기*/
+    border-radius: 25px;
+    position: fixed;
+    font-size: 15px;
+    bottom: 120px; /*px값을 올려줘야한다 낮추게 되면 화면에 나타나지 않을수도 있다다*/
+    right: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

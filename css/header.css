@@ -1,0 +1,60 @@
+/*헤더바*/
+.header{
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+/*인포바*/
+.info-bar{
+    display: flex; /*양옆으로 배치*/
+    justify-content: space-between; /*around evently 살짝 간격*/
+    padding: 0 10px 0 10px; /*위 오 아래 왼*/
+    align-items: center;
+}
+
+.info-bar__icons img{
+    width: 15px;
+}
+
+.info-bar__time{
+    font-size: 12px;
+    font-weight: bold; /*blod하면 20:55가 두꺼워진다*/
+    
+}
+
+/*메뉴바*/
+.menu-bar{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.menu-bar__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+}
+
+
+.menu-bar__location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: blod;
+    padding-left: 10px;
+}
+
+.menu-bar__location img {
+    width: 15px;
+}
+
+.menu-bar__location-icon {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
