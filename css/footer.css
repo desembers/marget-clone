@@ -31,7 +31,24 @@ footer{
     transform: scale(0.8); /*스케일을 줄일수 있다*/
 }
 
-.footer-icons img{
-    width: 30px;
-
+@keyframes icons-둥-둥{
+    0%{
+    transform: translateY(0px);
+    }
+    30%{
+    transform: translateY(-10px); /*위아래 오르락 내리락락*/
+    }
+    100%{
+    transform: translateY(0px);
+    }
 }
+/*0 50 100 보다 0 30 100 빨리 떨어진다다*/
+.footer-icons__img{
+    width: 30px;
+    /*animation: 1s icons-둥-둥 infinite; /*왔다 갔다 하기 오르락 내리락translateY*/
+}
+
+.footer-icons:hover {
+    animation: 1s icons-둥-둥 infinite; /*왔다 갔다 하기 오르락 내리락translateY*/
+}
+
