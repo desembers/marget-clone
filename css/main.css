@@ -48,7 +48,7 @@
 }
 
 .write-btn {
-    background-color: #f66516;
+    background-color: var(--button-primary);
     color: white;
     padding: 10px 15px 10px 15px; /*패딩값을 10 15 10 15 박스 크기 위아래 10px 좌우 15px 늘리기*/
     border-radius: 25px;
@@ -57,4 +57,10 @@
     bottom: 120px; /*px값을 올려줘야한다 낮추게 되면 화면에 나타나지 않을수도 있다다*/
     right: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.write-btn:hover {
+    background-color: var(--button-hover); /*rgba 맨 마지막에 투명도 숫자 낮을수록 더 투명하다*/
 }
